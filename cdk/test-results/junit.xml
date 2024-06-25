@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="5.383">
+  <testsuite name="test/synthesize-stack.test.ts" errors="0" failures="0" skipped="0" timestamp="2024-01-02T23:37:52" time="2.065" tests="4">
+    <testcase classname="Synthesize tests-Creates the stack without exceptions" name="Synthesize tests-Creates the stack without exceptions" time="0.014">
+    </testcase>
+    <testcase classname="Synthesize tests-This app can synthesize completely" name="Synthesize tests-This app can synthesize completely" time="0.042">
+    </testcase>
+    <testcase classname="Synthesize tests › Synthesize tests-Creates the stack without exceptions" name="Synthesize tests › Synthesize tests-Creates the stack without exceptions" time="0.003">
+    </testcase>
+    <testcase classname="Synthesize tests › Synthesize tests-This app can synthesize completely" name="Synthesize tests › Synthesize tests-This app can synthesize completely" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/snapshot-cdklib.test.ts" errors="0" failures="0" skipped="0" timestamp="2024-01-02T23:37:54" time="1.425" tests="1">
+    <testcase classname="-Matches SnapShot" name="-Matches SnapShot" time="1.201">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/snapshot-cdk.test.ts" errors="0" failures="0" skipped="0" timestamp="2024-01-02T23:37:56" time="1.487" tests="1">
+    <testcase classname="-Matches SnapShot" name="-Matches SnapShot" time="1.281">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/markup.cdk.test.ts" errors="0" failures="0" skipped="0" timestamp="2024-01-02T23:37:57" time="0.188" tests="3">
+    <testcase classname="-no markup row if there is no message in the list" name="-no markup row if there is no message in the list" time="0.002">
+    </testcase>
+    <testcase classname="-standard message produces a default markup row" name="-standard message produces a default markup row" time="0">
+    </testcase>
+    <testcase classname="-notification markup row works with a colored message" name="-notification markup row works with a colored message" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="test/node-version.test.ts" errors="0" failures="0" skipped="0" timestamp="2024-01-02T23:37:58" time="0.162" tests="1">
+    <testcase classname="Check your minimal LTS version of NodeJS -Should test version assert" name="Check your minimal LTS version of NodeJS -Should test version assert" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

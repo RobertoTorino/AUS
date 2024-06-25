@@ -1,0 +1,19 @@
+# CDK Typescript default
+*.ts
+
+# CDK asset staging directory
+cdk.out
+
+# Project
+*.js
+node_modules
+!main.js
+!search.js
+!data.js
+!icons.js
+
+# CDK
+
+# general
+
+.idea

@@ -1,0 +1,55 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "apigateway:*",
+        "cloudwatch:*",
+        "lambda:*",
+        "logs:*",
+        "chatbot:DescribeSlackChannels",
+        "chatbot:DescribeSlackUserIdentities",
+        "chatbot:DescribeSlackWorkspaces",
+        "chatbot:GetAccountPreferences",
+        "chatbot:CreateSlackChannelConfiguration",
+        "chatbot:DeleteSlackChannelConfiguration",
+        "chatbot:UpdateSlackChannelConfiguration",
+        "s3:*",
+        "ssm:*",
+        "sns:*",
+        "sqs:*"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "StringEquals": {
+            "aws:RequestedRegion": [
+              "eu-west-1",
+              "us-east-1"
+            ]
+        }
+      }
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "cloudfront:*"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:*Role*",
+        "iam:GetPolicy",
+        "iam:CreatePolicy",
+        "iam:DeletePolicy",
+        "iam:*PolicyVersion*"
+      ],
+      "NotResource": [
+        "arn:aws:iam::*:role/cdk-*",
+        "arn:aws:iam::*:policy/cdkCFExecutionPolicy"
+      ]
+    }
+  ]
+}
